@@ -1,0 +1,1273 @@
+{
+    "links": [
+        {
+            "relation": "r_certchain",
+            "source": 1,
+            "target": 9
+        },
+        {
+            "relation": "r_certchain",
+            "source": 5,
+            "target": 9
+        },
+        {
+            "relation": "r_cert",
+            "source": 6,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 6,
+            "target": 2
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 6,
+            "target": 56
+        },
+        {
+            "relation": "r_asn",
+            "source": 7,
+            "target": 10
+        },
+        {
+            "relation": "r_cert",
+            "source": 8,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 8,
+            "target": 7
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 8,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 8,
+            "target": 57
+        },
+        {
+            "relation": "r_cert",
+            "source": 11,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 11,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 11,
+            "target": 58
+        },
+        {
+            "relation": "r_cert",
+            "source": 12,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 12,
+            "target": 59
+        },
+        {
+            "relation": "r_cert",
+            "source": 13,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 13,
+            "target": 7
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 13,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 13,
+            "target": 60
+        },
+        {
+            "relation": "r_cert",
+            "source": 14,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 14,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 14,
+            "target": 61
+        },
+        {
+            "relation": "r_cert",
+            "source": 15,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 15,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 15,
+            "target": 62
+        },
+        {
+            "relation": "r_cert",
+            "source": 16,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 16,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 16,
+            "target": 63
+        },
+        {
+            "relation": "r_cert",
+            "source": 17,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 17,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 17,
+            "target": 64
+        },
+        {
+            "relation": "r_cert",
+            "source": 18,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 18,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 18,
+            "target": 65
+        },
+        {
+            "relation": "r_cert",
+            "source": 19,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 19,
+            "target": 66
+        },
+        {
+            "relation": "r_cert",
+            "source": 20,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 20,
+            "target": 67
+        },
+        {
+            "relation": "r_cert",
+            "source": 21,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 21,
+            "target": 4
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 21,
+            "target": 68
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 22,
+            "target": 3
+        },
+        {
+            "relation": "r_cert",
+            "source": 22,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 22,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 22,
+            "target": 69
+        },
+        {
+            "relation": "r_cert",
+            "source": 23,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 23,
+            "target": 70
+        },
+        {
+            "relation": "r_cert",
+            "source": 24,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 24,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 24,
+            "target": 71
+        },
+        {
+            "relation": "r_cert",
+            "source": 25,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 25,
+            "target": 72
+        },
+        {
+            "relation": "r_cert",
+            "source": 26,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 26,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 26,
+            "target": 73
+        },
+        {
+            "relation": "r_cert",
+            "source": 27,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 27,
+            "target": 74
+        },
+        {
+            "relation": "r_cert",
+            "source": 28,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 28,
+            "target": 75
+        },
+        {
+            "relation": "r_cert",
+            "source": 29,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 29,
+            "target": 76
+        },
+        {
+            "relation": "r_cert",
+            "source": 30,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 30,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 30,
+            "target": 77
+        },
+        {
+            "relation": "r_cert",
+            "source": 31,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 31,
+            "target": 78
+        },
+        {
+            "relation": "r_cert",
+            "source": 32,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 32,
+            "target": 79
+        },
+        {
+            "relation": "r_cert",
+            "source": 33,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 33,
+            "target": 80
+        },
+        {
+            "relation": "r_cert",
+            "source": 34,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 35,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 35,
+            "target": 82
+        },
+        {
+            "relation": "r_cert",
+            "source": 36,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 36,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 36,
+            "target": 83
+        },
+        {
+            "relation": "r_cert",
+            "source": 37,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 37,
+            "target": 84
+        },
+        {
+            "relation": "r_cert",
+            "source": 38,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 38,
+            "target": 85
+        },
+        {
+            "relation": "r_cert",
+            "source": 39,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 39,
+            "target": 86
+        },
+        {
+            "relation": "r_cert",
+            "source": 40,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 40,
+            "target": 87
+        },
+        {
+            "relation": "r_cert",
+            "source": 41,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 41,
+            "target": 88
+        },
+        {
+            "relation": "r_cert",
+            "source": 42,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 42,
+            "target": 89
+        },
+        {
+            "relation": "r_cert",
+            "source": 43,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 43,
+            "target": 90
+        },
+        {
+            "relation": "r_cert",
+            "source": 44,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 44,
+            "target": 91
+        },
+        {
+            "relation": "r_cert",
+            "source": 45,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 45,
+            "target": 92
+        },
+        {
+            "relation": "r_cert",
+            "source": 46,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 46,
+            "target": 93
+        },
+        {
+            "relation": "r_cert",
+            "source": 47,
+            "target": 1
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 47,
+            "target": 94
+        },
+        {
+            "relation": "r_cert",
+            "source": 48,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 48,
+            "target": 95
+        },
+        {
+            "relation": "r_cert",
+            "source": 49,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 49,
+            "target": 96
+        },
+        {
+            "relation": "r_cert",
+            "source": 50,
+            "target": 1
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 50,
+            "target": 97
+        },
+        {
+            "relation": "r_cert",
+            "source": 51,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 51,
+            "target": 98
+        },
+        {
+            "relation": "r_cert",
+            "source": 52,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 52,
+            "target": 99
+        },
+        {
+            "relation": "r_cert",
+            "source": 53,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 53,
+            "target": 100
+        },
+        {
+            "relation": "r_cert",
+            "source": 54,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 54,
+            "target": 101
+        },
+        {
+            "relation": "r_cert",
+            "source": 55,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 55,
+            "target": 7
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 55,
+            "target": 102
+        },
+        {
+            "relation": "r_cert",
+            "source": 56,
+            "target": 1
+        },
+        {
+            "relation": "r_cert",
+            "source": 57,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 57,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 58,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 59,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 60,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 60,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 61,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 62,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 62,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 63,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 64,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 65,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 66,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 67,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 68,
+            "target": 1
+        },
+        {
+            "relation": "r_cert",
+            "source": 69,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 69,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 70,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 71,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 72,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 73,
+            "target": 5
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 73,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 74,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 75,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 76,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 77,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 77,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 78,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 79,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 80,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 81,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 82,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 83,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 83,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 84,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 85,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 86,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 87,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 88,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 89,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 90,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 91,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 92,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 93,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 95,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 96,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 97,
+            "target": 1
+        },
+        {
+            "relation": "r_cert",
+            "source": 98,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 99,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 100,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 102,
+            "target": 1
+        },
+        {
+            "relation": "r_dns_a",
+            "source": 102,
+            "target": 7
+        },
+        {
+            "relation": "r_cert",
+            "source": 103,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 104,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 105,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 106,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 107,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 108,
+            "target": 5
+        },
+        {
+            "relation": "r_cert",
+            "source": 109,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 109,
+            "target": 103
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 110,
+            "target": 104
+        },
+        {
+            "relation": "r_cert",
+            "source": 111,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 111,
+            "target": 105
+        },
+        {
+            "relation": "r_cert",
+            "source": 112,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 112,
+            "target": 106
+        },
+        {
+            "relation": "r_cert",
+            "source": 113,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 113,
+            "target": 107
+        },
+        {
+            "relation": "r_cert",
+            "source": 114,
+            "target": 5
+        },
+        {
+            "relation": "r_subdomain",
+            "source": 114,
+            "target": 108
+        }
+    ],
+    "nodes": [
+        {
+            "id": 1
+        },
+        {
+            "id": 2
+        },
+        {
+            "id": 3
+        },
+        {
+            "id": 4
+        },
+        {
+            "id": 5
+        },
+        {
+            "id": 6
+        },
+        {
+            "id": 7
+        },
+        {
+            "id": 8
+        },
+        {
+            "id": 9
+        },
+        {
+            "id": 10
+        },
+        {
+            "id": 11
+        },
+        {
+            "id": 12
+        },
+        {
+            "id": 13
+        },
+        {
+            "id": 14
+        },
+        {
+            "id": 15
+        },
+        {
+            "id": 16
+        },
+        {
+            "id": 17
+        },
+        {
+            "id": 18
+        },
+        {
+            "id": 19
+        },
+        {
+            "id": 20
+        },
+        {
+            "id": 21
+        },
+        {
+            "id": 22
+        },
+        {
+            "id": 23
+        },
+        {
+            "id": 24
+        },
+        {
+            "id": 25
+        },
+        {
+            "id": 26
+        },
+        {
+            "id": 27
+        },
+        {
+            "id": 28
+        },
+        {
+            "id": 29
+        },
+        {
+            "id": 30
+        },
+        {
+            "id": 31
+        },
+        {
+            "id": 32
+        },
+        {
+            "id": 33
+        },
+        {
+            "id": 34
+        },
+        {
+            "id": 35
+        },
+        {
+            "id": 36
+        },
+        {
+            "id": 37
+        },
+        {
+            "id": 38
+        },
+        {
+            "id": 39
+        },
+        {
+            "id": 40
+        },
+        {
+            "id": 41
+        },
+        {
+            "id": 42
+        },
+        {
+            "id": 43
+        },
+        {
+            "id": 44
+        },
+        {
+            "id": 45
+        },
+        {
+            "id": 46
+        },
+        {
+            "id": 47
+        },
+        {
+            "id": 48
+        },
+        {
+            "id": 49
+        },
+        {
+            "id": 50
+        },
+        {
+            "id": 51
+        },
+        {
+            "id": 52
+        },
+        {
+            "id": 53
+        },
+        {
+            "id": 54
+        },
+        {
+            "id": 55
+        },
+        {
+            "id": 56
+        },
+        {
+            "id": 57
+        },
+        {
+            "id": 58
+        },
+        {
+            "id": 59
+        },
+        {
+            "id": 60
+        },
+        {
+            "id": 61
+        },
+        {
+            "id": 62
+        },
+        {
+            "id": 63
+        },
+        {
+            "id": 64
+        },
+        {
+            "id": 65
+        },
+        {
+            "id": 66
+        },
+        {
+            "id": 67
+        },
+        {
+            "id": 68
+        },
+        {
+            "id": 69
+        },
+        {
+            "id": 70
+        },
+        {
+            "id": 71
+        },
+        {
+            "id": 72
+        },
+        {
+            "id": 73
+        },
+        {
+            "id": 74
+        },
+        {
+            "id": 75
+        },
+        {
+            "id": 76
+        },
+        {
+            "id": 77
+        },
+        {
+            "id": 78
+        },
+        {
+            "id": 79
+        },
+        {
+            "id": 80
+        },
+        {
+            "id": 81
+        },
+        {
+            "id": 82
+        },
+        {
+            "id": 83
+        },
+        {
+            "id": 84
+        },
+        {
+            "id": 85
+        },
+        {
+            "id": 86
+        },
+        {
+            "id": 87
+        },
+        {
+            "id": 88
+        },
+        {
+            "id": 89
+        },
+        {
+            "id": 90
+        },
+        {
+            "id": 91
+        },
+        {
+            "id": 92
+        },
+        {
+            "id": 93
+        },
+        {
+            "id": 94
+        },
+        {
+            "id": 95
+        },
+        {
+            "id": 96
+        },
+        {
+            "id": 97
+        },
+        {
+            "id": 98
+        },
+        {
+            "id": 99
+        },
+        {
+            "id": 100
+        },
+        {
+            "id": 101
+        },
+        {
+            "id": 102
+        },
+        {
+            "id": 103
+        },
+        {
+            "id": 104
+        },
+        {
+            "id": 105
+        },
+        {
+            "id": 106
+        },
+        {
+            "id": 107
+        },
+        {
+            "id": 108
+        },
+        {
+            "id": 109
+        },
+        {
+            "id": 110
+        },
+        {
+            "id": 111
+        },
+        {
+            "id": 112
+        },
+        {
+            "id": 113
+        },
+        {
+            "id": 114
+        }
+    ]
+}

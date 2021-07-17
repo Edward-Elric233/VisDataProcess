@@ -1,0 +1,687 @@
+[
+    {
+        "cert": "f825f9f7593fedcb212a1553e8d95598dd83d0fe59318c839ff1b4d72d23b3a2",
+        "dns_a": "156.241.6.110",
+        "dns_cname": "46a9945c.kok1065.com.cname.yunduncname.com",
+        "name": "kok782.com",
+        "subdomain": "www.kok782.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "f825f9f7593fedcb212a1553e8d95598dd83d0fe59318c839ff1b4d72d23b3a2",
+        "dns_a": "156.241.6.110",
+        "dns_cname": "46a9945c.kok1065.com.cname.yunduncname.com",
+        "name": "www.kok782.com",
+        "request_jump": "www.kokvip10.com",
+        "type": "Domain"
+    },
+    {
+        "dns_a": "164.88.96.25",
+        "dns_cname": "kok1004.com",
+        "name": "46a9945c.kok1065.com.cname.yunduncname.com",
+        "subdomain": "yunduncname.com",
+        "type": "Domain"
+    },
+    {
+        "name": "164.88.96.25",
+        "type": "IP"
+    },
+    {
+        "cidr": "117.18.111.0/24",
+        "dns_a": "kok1004.com",
+        "name": "117.18.111.217",
+        "type": "IP"
+    },
+    {
+        "cidr": "156.230.193.0/24",
+        "dns_a": "kok1004.com",
+        "name": "156.230.193.21",
+        "type": "IP"
+    },
+    {
+        "cidr": "156.241.6.0/24",
+        "dns_a": "kok1004.com",
+        "name": "156.241.6.110",
+        "type": "IP"
+    },
+    {
+        "cert": "kok620.com",
+        "name": "f825f9f7593fedcb212a1553e8d95598dd83d0fe59318c839ff1b4d72d23b3a2",
+        "type": "Cert_SHA256"
+    },
+    {
+        "name": "www.kok1004.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok1004.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1002.com",
+        "subdomain": "www.kok1002.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1003.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok1003.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1002.com",
+        "request_jump": "www.kokvip10.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1000.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok1000.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1005.com",
+        "subdomain": "www.kok1005.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok494.com",
+        "subdomain": "www.kok494.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok508.com",
+        "subdomain": "www.kok508.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok634.com",
+        "subdomain": "www.kok634.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok659.com",
+        "subdomain": "www.kok659.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok513.com",
+        "subdomain": "www.kok513.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok662.com",
+        "subdomain": "www.kok662.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok639.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok639.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok537.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok537.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok582.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok582.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok654.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok654.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok583.com",
+        "subdomain": "www.kok583.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok657.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok657.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok576.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok576.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok620.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok620.com",
+        "type": "Domain"
+    },
+    {
+        "name": "117.18.111.0/24",
+        "type": "IP_CIDR"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1023.com",
+        "subdomain": "www.kok1023.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1030.com",
+        "subdomain": "www.kok1030.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1048.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok1048.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1073.com",
+        "subdomain": "www.kok1073.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1064.com",
+        "subdomain": "www.kok1064.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1132.com",
+        "subdomain": "www.kok1132.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1055.com",
+        "subdomain": "www.kok1055.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1291.com",
+        "subdomain": "www.kok1291.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1151.com",
+        "subdomain": "www.kok1151.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1006.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok1006.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1117.com",
+        "subdomain": "www.kok1117.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1106.com",
+        "subdomain": "www.kok1106.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1104.com",
+        "subdomain": "www.kok1104.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1030.com",
+        "request_jump": "www.kokvip10.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1086.com",
+        "subdomain": "www.kok1086.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1041.com",
+        "request_jump": "www.kokvip10.com",
+        "subdomain": "kok1041.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1143.com",
+        "subdomain": "www.kok1143.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1042.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1118.com",
+        "type": "Domain"
+    },
+    {
+        "name": "156.230.193.0/24",
+        "type": "IP_CIDR"
+    },
+    {
+        "name": "156.241.6.0/24",
+        "type": "IP_CIDR"
+    },
+    {
+        "name": "www.kok604.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok588.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok656.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1000.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1004.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1001.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1005.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok663.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok667.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok505.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok650.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok732.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok544.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok570.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok615.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok751.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok616.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok540.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok670.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok598.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kokvip10.com",
+        "request_jump": "www.kok659.com",
+        "type": "Domain"
+    },
+    {
+        "name": "yunduncname.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1003.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok494.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok508.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok634.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok659.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok513.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok662.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok639.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok537.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok582.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok654.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok583.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok657.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1087.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1057.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1007.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1103.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1309.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1068.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1131.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1013.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1115.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1201.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1293.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1311.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1215.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1269.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1180.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "kok1234.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1108.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1146.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1175.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "name": "www.kok1235.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok576.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok620.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1023.com",
+        "type": "Domain"
+    },
+    {
+        "cert": "kok1233.com",
+        "name": "9308f170d291f214d6680788100464474bb8d7b97e0b8be03f04bbd72467dd70",
+        "type": "Cert_SHA256"
+    },
+    {
+        "name": "kok1048.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1073.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1064.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1132.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1055.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1291.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1151.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1006.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1117.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1106.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1104.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1086.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1041.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1143.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1196.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1275.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1333.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1363.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1317.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1217.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1060.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1213.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1221.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1197.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1127.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1276.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1219.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1486.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1248.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1288.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1276.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1419.com",
+        "type": "Domain"
+    },
+    {
+        "name": "www.kok1179.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1285.com",
+        "type": "Domain"
+    },
+    {
+        "name": "kok1233.com",
+        "type": "Domain"
+    }
+]
