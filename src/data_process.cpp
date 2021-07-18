@@ -36,7 +36,7 @@ string dot2line(string s) {
         json &nodes = j["nodes"];
         json &links = j["links"];
         auto deal = [&nodes](const json &link) {
-            const string &type = link[REALTION];
+            string type = link[REALTION];
             const string &source = link[SOURCE];
             const string &target = link[TARGET];
             auto iter = std::find_if(nodes.begin(), nodes.end(), [&](const json &x){
@@ -52,7 +52,13 @@ string dot2line(string s) {
             //                int i;
             //                std::cin >> i;
             //            }
-            (*iter)[type.substr(2)] = target;
+            type = type.substr(2);
+            if (!iter->contains(type)) {
+                (*iter)[type] = json::array();
+                (*iter)[type].push_back(target);
+            } else {
+                (*iter)[type].push_back(target);
+            }
         };
         for (auto &link : links) {
             deal(link);
@@ -82,7 +88,7 @@ string dot2line(string s) {
                 {"r_whois_phone", 0},
                 {"r_whois_email", 0},
                 {"r_cert", 0},
-                {"r_cert_chain", 0},
+                {"r_certchain", 0},
                 {"r_request_jump", 0},
                 {"r_dns_cname", 0},
                 {"r_subdomain", 0},
@@ -92,31 +98,33 @@ string dot2line(string s) {
         };
         auto deal = [&](json &node, const string &type) -> bool {
             if (!node.contains(type)) return false;
-            string other_node_name = node[type];
-            const string &node_name = node["name"];
-            auto iter = std::find_if(dot_data.begin(), dot_data.end(), [&](const json &x){
-                return x[NAME] == other_node_name;
-            });
-            if (iter == dot_data.end()) return false;
-            const string link_type = "r_" + type;
-            auto add_link = [&](const string &u, const string &v) {
-                json edge = json::object();
-                edge[SOURCE] = u;
-                edge[TARGET] = v;
-                edge[REALTION] = link_type;
-                link_data.push_back(std::move(edge));
-            };
-            add_link(node_name, other_node_name);
-            add_link(other_node_name, node_name);
+            for (auto name_ : node[type]) {
+                const string &other_node_name = name_;
+                const string &node_name = node["name"];
+                auto iter = std::find_if(dot_data.begin(), dot_data.end(), [&](const json &x){
+                    return x[NAME] == other_node_name;
+                });
+                if (iter == dot_data.end()) return false;
+                const string link_type = "r_" + type;
+                auto add_link = [&](const string &u, const string &v) {
+                    json edge = json::object();
+                    edge[SOURCE] = u;
+                    edge[TARGET] = v;
+                    edge[REALTION] = link_type;
+                    link_data.push_back(std::move(edge));
+                };
+                add_link(node_name, other_node_name);
+//                add_link(other_node_name, node_name);
+                link_statistics[link_type] = int(link_statistics[link_type]) + 1;
+            }
             node.erase(type);
-            link_statistics[link_type] = int(link_statistics[link_type]) + 1;
             return true;
         };
         for (auto &node : dot_data) {
             //node.erase("page");
             const string &type = node[TYPE];
             node_statistics[type] = int(node_statistics[type]) + 1;
-            if (type == "Domain") {
+//            if (type == "Domain") {
                 deal(node, "whois_name");
                 deal(node, "whois_phone");
                 deal(node, "whois_email");
@@ -125,12 +133,12 @@ string dot2line(string s) {
                 deal(node, "dns_cname");
                 deal(node, "subdomain");
                 deal(node, "dns_a");
-            } else if (type == "Cert_SHA256") {
-                deal(node, "cert_chain");
-            } else if (type == "IP") {
+//            } else if (type == "Cert_SHA256") {
+                deal(node, "certchain");
+//            } else if (type == "IP") {
                 deal(node, "asn");
                 deal(node, "cidr");
-            }
+//            }
         }
         std::ofstream os(output_filter + file_name);
         json output_data;

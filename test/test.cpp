@@ -6,15 +6,29 @@
 #include "json.hpp"
 #include <iostream>
 #include <fstream>
+#include <set>
+#include <string>
 
 using namespace std;
 using nlohmann::json;
 
 int main() {
     ios::sync_with_stdio(false);
-    ifstream is("../ISData/data1.json");
+    ifstream is("../ISOutput/graph/data1.json");
     json j;
     is >> j;
-    cout << j.dump(4);
+    auto &nodes = j["nodes"];
+
+    set<string> record;
+
+    cout << nodes.size() << endl;
+
+//    for (auto &node : nodes) {
+//        node.erase("name");
+//        node.erase("type");
+//        for (auto &iter : node) {
+//            cout << iter << endl;
+//        }
+//    }
     return 0;
 }

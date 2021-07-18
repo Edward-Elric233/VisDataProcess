@@ -10,9 +10,8 @@ int main() {
     ios::sync_with_stdio(false);
     ReadFileList readFileList("../VisData/std_data");
     auto file_list = readFileList();
-    for (auto file : file_list) {
-        cout << "[DEAL FILE] " << file << endl;
-        vis_lib::add_coor("../VisData/std_data/", "../VisData/drgraph_data/" ,file);
-    }
+
+    information_security::works("../ISData/", "../ISOutput/", "data1.json");
+
     return 0;
 }
