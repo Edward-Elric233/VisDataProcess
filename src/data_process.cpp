@@ -68,9 +68,9 @@ string dot2line(string s) {
     }
 
 
-    void dot2graph_deal(const string &input_filter, const string &output_filter, const string &file_name) {
+    void dot2graph_deal(const string &input_path, const string &output_path) {
         json dot_data;
-        std::ifstream is(input_filter + file_name);
+        std::ifstream is(input_path);
         is >> dot_data;
         json link_data = json::array();
         json node_statistics = {
@@ -140,7 +140,7 @@ string dot2line(string s) {
                 deal(node, "cidr");
 //            }
         }
-        std::ofstream os(output_filter + file_name);
+        std::ofstream os(output_path);
         json output_data;
         output_data["nodes"] = dot_data;
         output_data["links"] = link_data;
@@ -151,7 +151,7 @@ string dot2line(string s) {
 
     void works(const string &_input_filter, const string &_output_filter, const string &file_name) {
         graph2dot_deal(_input_filter, _output_filter + "dot/", file_name);
-        dot2graph_deal(_output_filter + "dot/", _output_filter + "graph/" ,file_name);
+        dot2graph_deal(_output_filter + "dot/" + file_name, _output_filter + "graph/" + file_name);
     }
 
 }
@@ -161,9 +161,9 @@ extern "C" {
 #include <string.h>
 #include <stdio.h>
 
-void dot2graph(char *input_filter, char *output_filter, char *file_name) {
+void dot2graph(char *input_path, char *output_path) {
     //printf("file_name:%s\n", file_name);
-    information_security::dot2graph_deal(input_filter, output_filter, file_name);
+    information_security::dot2graph_deal(input_path, output_path);
 }
 
 }
