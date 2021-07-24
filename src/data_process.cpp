@@ -162,7 +162,7 @@ string dot2line(string s) {
         }
 
         for (int i = 0; i < cnt; ++i) {
-            string output_path_i = output_path.substr(0, output_path.find_last_of('.')) + "_" + std::to_string(i + 1) + output_path.substr(output_path.find_last_of('.'));
+            string output_path_i = output_path.substr(0, output_path.find_last_of('.')) + "_" + std::to_string(cnt) + "_" + std::to_string(i + 1) + output_path.substr(output_path.find_last_of('.'));
             std::ofstream os(output_path_i);
             os << output_datas[i].dump(4);
         }
