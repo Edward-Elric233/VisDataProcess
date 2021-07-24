@@ -12,9 +12,11 @@ namespace information_security {
  */
 void works(const std::string &input_filter = "data", const std::string &output_filter = "output" ,const std::string &file_name = "data1.json");
 
+int dot2graph_deal(const std::string &input_path, const std::string &output_path);
 }
 
-namespace vis_lib {
+
+    namespace vis_lib {
     /*!
     * 将以对象组织的json文件转换为以列表组织的
     * @param intput_filter

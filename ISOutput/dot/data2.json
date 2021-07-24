@@ -1,0 +1,34 @@
+[
+  {
+    "name": "A",
+    "type": "Domain",
+    "subdomain": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "name": "B",
+    "type": "Domain"
+  },
+  {
+    "name": "C",
+    "type": "Domain"
+  },
+  {
+    "name": "D",
+    "type": "Domain",
+    "subdomain": [
+      "E",
+      "F"
+    ]
+  },
+  {
+    "name": "E",
+    "type": "Domain"
+  },
+  {
+    "name": "F",
+    "type": "Domain"
+  }
+]

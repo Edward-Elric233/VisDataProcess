@@ -9,6 +9,7 @@
 #include <algorithm>
 #include <iostream>
 #include <unordered_map>
+#include <vector>
 
 namespace information_security{
 
@@ -16,6 +17,7 @@ namespace information_security{
     using std::string;
     using std::cout;
     using std::endl;
+    using std::vector;
 
     namespace {
         const string REALTION = "relation";
@@ -67,36 +69,22 @@ string dot2line(string s) {
         os << nodes.dump(4);
     }
 
+    void dfs(vector<vector<int>> &graph, int x,vector<int> &idx, int cnt) {
+        idx[x] = cnt;
+        for (auto v : graph[x]) {
+            if (idx[v]) continue;
+            dfs(graph, v, idx, cnt);
+        }
+    }
 
-    void dot2graph_deal(const string &input_path, const string &output_path) {
+
+    int dot2graph_deal(const string &input_path, const string &output_path) {
         json dot_data;
         std::ifstream is(input_path);
         is >> dot_data;
         json link_data = json::array();
-        json node_statistics = {
-                {"Domain", 0},
-                {"IP", 0},
-                {"ASN", 0},
-                {"IP_CIDR", 0},
-                {"Cert_SHA256", 0},
-                {"Whois_Name", 0},
-                {"Whois_Phone", 0},
-                {"Whois_Email", 0},
-        };
-        json link_statistics = {
-                {"r_whois_name", 0},
-                {"r_whois_phone", 0},
-                {"r_whois_email", 0},
-                {"r_cert", 0},
-                {"r_certchain", 0},
-                {"r_request_jump", 0},
-                {"r_dns_cname", 0},
-                {"r_subdomain", 0},
-                {"r_dns_a", 0},
-                {"r_cidr", 0},
-                {"r_asn", 0},
-        };
-        auto deal = [&](json &node, const string &type) -> bool {
+        vector<vector<int>> graph(dot_data.size());
+        auto deal = [&](json &node, const string &type, int u) -> bool {
             if (!node.contains(type)) return false;
             for (auto name_ : node[type]) {
                 const string &other_node_name = name_;
@@ -105,6 +93,9 @@ string dot2line(string s) {
                     return x[NAME] == other_node_name;
                 });
                 if (iter == dot_data.end()) return false;
+                int v = iter - dot_data.begin();
+                graph[u].push_back(v);
+                graph[v].push_back(u);
                 const string link_type = "r_" + type;
                 auto add_link = [&](const string &u, const string &v) {
                     json edge = json::object();
@@ -115,38 +106,67 @@ string dot2line(string s) {
                 };
                 add_link(node_name, other_node_name);
 //                add_link(other_node_name, node_name);
-                link_statistics[link_type] = int(link_statistics[link_type]) + 1;
             }
             node.erase(type);
             return true;
         };
-        for (auto &node : dot_data) {
+        for (int i = 0; i < dot_data.size(); ++i) {
+//        for (auto &node : dot_data) {
+            json &node = dot_data[i];
             //node.erase("page");
             const string &type = node[TYPE];
-            node_statistics[type] = int(node_statistics[type]) + 1;
 //            if (type == "Domain") {
-                deal(node, "whois_name");
-                deal(node, "whois_phone");
-                deal(node, "whois_email");
-                deal(node, "cert");
-                deal(node, "request_jump");
-                deal(node, "dns_cname");
-                deal(node, "subdomain");
-                deal(node, "dns_a");
+                deal(node, "whois_name", i);
+                deal(node, "whois_phone", i);
+                deal(node, "whois_email", i);
+                deal(node, "cert", i);
+                deal(node, "request_jump", i);
+                deal(node, "dns_cname", i);
+                deal(node, "subdomain", i);
+                deal(node, "dns_a", i);
 //            } else if (type == "Cert_SHA256") {
-                deal(node, "certchain");
+                deal(node, "certchain", i);
 //            } else if (type == "IP") {
-                deal(node, "asn");
-                deal(node, "cidr");
+                deal(node, "asn", i);
+                deal(node, "cidr", i);
 //            }
         }
-        std::ofstream os(output_path);
-        json output_data;
-        output_data["nodes"] = dot_data;
-        output_data["links"] = link_data;
-        //output_data["node_statistics"] = node_statistics;
-        //output_data["link_statistics"] = link_statistics;
-        os << output_data.dump(4);
+        int cnt = 0;
+        vector<int> idx(dot_data.size(), 0);
+
+        for (int i = 0; i < dot_data.size(); ++i) {
+            if (!idx[i]) {
+                ++cnt;
+                dfs(graph, i, idx, cnt);
+            }
+        }
+
+        vector<json> output_datas(cnt, json::object());
+        for (auto &output_data : output_datas) {
+            output_data["nodes"] = json::array();
+            output_data["links"] = json::array();
+        }
+
+        for (int i = 0; i < dot_data.size(); ++i) {
+            int data_idx = idx[i] - 1;
+            output_datas[data_idx]["nodes"].push_back(dot_data[i]);
+        }
+
+        for (auto &link : link_data) {
+            string name = link[SOURCE];
+            auto iter = std::find_if(dot_data.begin(), dot_data.end(), [&name](const json &node) {
+                return node[NAME] == name;
+            });
+            int data_idx = idx[iter - dot_data.begin()] - 1;
+            output_datas[data_idx]["links"].push_back(link);
+        }
+
+        for (int i = 0; i < cnt; ++i) {
+            string output_path_i = output_path.substr(0, output_path.find_last_of('.')) + "_" + std::to_string(i + 1) + output_path.substr(output_path.find_last_of('.'));
+            std::ofstream os(output_path_i);
+            os << output_datas[i].dump(4);
+        }
+        return cnt;
     }
 
     void works(const string &_input_filter, const string &_output_filter, const string &file_name) {
@@ -161,9 +181,9 @@ extern "C" {
 #include <string.h>
 #include <stdio.h>
 
-void dot2graph(char *input_path, char *output_path) {
+int dot2graph(char *input_path, char *output_path) {
     //printf("file_name:%s\n", file_name);
-    information_security::dot2graph_deal(input_path, output_path);
+    return information_security::dot2graph_deal(input_path, output_path);
 }
 
 }

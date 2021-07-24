@@ -1,63 +1,304 @@
 [
     {
-        "cert": "80262ae04533b91d11cd6094418eb4dc0cd644abadadb7529c92c9fc51fa4efd",
-        "dns_a": "103.253.13.77",
+        "cert": [
+            "80262ae04533b91d11cd6094418eb4dc0cd644abadadb7529c92c9fc51fa4efd"
+        ],
+        "dns_a": [
+            "103.253.13.77"
+        ],
         "name": "3454584.com",
-        "subdomain": "www.3454584.com",
+        "subdomain": [
+            "www.3454584.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "3454596.com",
+        "dns_a": [
+            "154585.com",
+            "34545b.com",
+            "34545i.com",
+            "02887k.com",
+            "15459999.com",
+            "0001545.com",
+            "www.154586.com",
+            "154586.com",
+            "www.3454510.com",
+            "www.02887d.com",
+            "02887d.com",
+            "2221545.com",
+            "www.2221545.com",
+            "22221545.com",
+            "34545t.com",
+            "3454525.com",
+            "3454506.com",
+            "3454514.com",
+            "02887n.com",
+            "www.34545t.com",
+            "3454554.com",
+            "236629.com",
+            "236859.com",
+            "5551545.com",
+            "154515.com",
+            "3454524.com",
+            "3454596.com"
+        ],
         "name": "103.253.13.77",
         "type": "IP"
     },
     {
-        "cert": "80262ae04533b91d11cd6094418eb4dc0cd644abadadb7529c92c9fc51fa4efd",
+        "cert": [
+            "80262ae04533b91d11cd6094418eb4dc0cd644abadadb7529c92c9fc51fa4efd"
+        ],
         "name": "www.3454584.com",
         "type": "Domain"
     },
     {
-        "cert": "3454596.com",
+        "cert": [
+            "www.154586.com",
+            "154585.com",
+            "154586.com",
+            "www.3454510.com",
+            "www.02887d.com",
+            "02887d.com",
+            "154540.com",
+            "www.154540.com",
+            "tasasdf.cg-alias.com",
+            "154596.com",
+            "www.154596.com",
+            "www.3454525.com",
+            "02887p.com",
+            "www.3454506.com",
+            "3454555.com",
+            "www.3454554.com",
+            "www.02887y.com",
+            "02887y.com",
+            "www.3454555.com",
+            "02887l.com",
+            "www.02887l.com",
+            "www.3454571.com",
+            "www.3454562.com",
+            "www.3454524.com",
+            "www.3454530.com",
+            "www.3454596.com",
+            "www.02887f.com",
+            "www.34545k.com",
+            "34545b.com",
+            "3454589.com",
+            "www.3454501.com",
+            "3454514.com",
+            "www.34545b.com",
+            "02887w.com",
+            "3454531.com",
+            "www.154595.com",
+            "www.02887s.com",
+            "www.154520.com",
+            "02887u.com",
+            "www.154583.com",
+            "34545i.com",
+            "www.3454531.com",
+            "www.34545i.com",
+            "www.02887t.com",
+            "www.34545r.com",
+            "34545r.com",
+            "02887x.com",
+            "02887o.com",
+            "www.02887x.com",
+            "www.3454508.com",
+            "02887e.com",
+            "34545p.com",
+            "www.3454539.com",
+            "3454539.com",
+            "02887m.com",
+            "3454595.com",
+            "www.154582.com",
+            "154582.com",
+            "3454586.com",
+            "02887k.com",
+            "www.34545h.com",
+            "02887b.com",
+            "3454592.com",
+            "02887g.com",
+            "www.02887v.com",
+            "3454563.com",
+            "www.02887a.com",
+            "www.3454582.com",
+            "3454582.com",
+            "02887h.com",
+            "www.02887h.com",
+            "www.3454540.com",
+            "3454540.com",
+            "www.15453333.com",
+            "15453333.com",
+            "www.15452222.com",
+            "15452222.com",
+            "www.15459999.com",
+            "15451111.com",
+            "15459999.com",
+            "www.15451111.com",
+            "15456666.com",
+            "www.15456666.com",
+            "www.15458888.com",
+            "15458888.com",
+            "15457777.com",
+            "www.15457777.com",
+            "www.15450000.com",
+            "15450000.com",
+            "www.279686.com",
+            "279686.com",
+            "236859.com",
+            "www.236629.com",
+            "237559.com",
+            "www.236869.com",
+            "236869.com",
+            "www.236819.com",
+            "8881545.com",
+            "www.8881545.com",
+            "www.0001545.com",
+            "0001545.com",
+            "2221545.com",
+            "www.2221545.com",
+            "www.7771545.com",
+            "5551545.com",
+            "www.3331545.com",
+            "3331545.com",
+            "www.5551545.com",
+            "7771545.com",
+            "www.154515.com",
+            "www.1545h.com",
+            "1545h.com",
+            "tas.cg-vipweb.com",
+            "55551545.com",
+            "1545111.com",
+            "www.1545111.com",
+            "www.55551545.com",
+            "4441545.com",
+            "www.4441545.com",
+            "22221545.com",
+            "www.88881545.com",
+            "88881545.com",
+            "99991545.com",
+            "www.22221545.com",
+            "00001545.com",
+            "77771545.com",
+            "www.77771545.com",
+            "66661545.com",
+            "www.44441545.com",
+            "www.00001545.com",
+            "www.66661545.com",
+            "www.15454444.com",
+            "44441545.com",
+            "15454444.com",
+            "www.154585.com",
+            "34545t.com",
+            "3454510.com",
+            "02887n.com",
+            "3454504.com",
+            "3454525.com",
+            "www.3454504.com",
+            "www.02887p.com",
+            "www.02887r.com",
+            "02887r.com",
+            "3454562.com",
+            "3454530.com",
+            "www.3454514.com",
+            "www.3454585.com",
+            "3454585.com",
+            "www.3454561.com",
+            "www.34545m.com",
+            "154595.com",
+            "154583.com",
+            "www.3454549.com",
+            "3454549.com",
+            "www.02887o.com",
+            "www.154550.com",
+            "www.02887m.com",
+            "www.34545p.com",
+            "3454506.com",
+            "3454571.com",
+            "02887f.com",
+            "34545k.com",
+            "www.3454589.com",
+            "3454501.com",
+            "154520.com",
+            "www.02887u.com",
+            "02887t.com",
+            "3454508.com",
+            "www.02887e.com",
+            "www.3454595.com",
+            "www.3454586.com",
+            "www.02887b.com",
+            "www.3454592.com",
+            "www.02887n.com",
+            "3454554.com",
+            "02887s.com",
+            "www.02887k.com",
+            "34545h.com",
+            "www.34545t.com",
+            "3454524.com",
+            "3454596.com"
+        ],
         "name": "80262ae04533b91d11cd6094418eb4dc0cd644abadadb7529c92c9fc51fa4efd",
         "type": "Cert_SHA256"
     },
     {
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "www.154586.com",
-        "subdomain": "154586.com",
+        "subdomain": [
+            "154586.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "154585.com",
-        "subdomain": "www.154585.com",
+        "subdomain": [
+            "www.154585.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "154586.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "www.3454510.com",
-        "subdomain": "3454510.com",
+        "subdomain": [
+            "3454510.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "www.02887d.com",
-        "subdomain": "02887d.com",
+        "subdomain": [
+            "02887d.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "02887d.com",
         "type": "Domain"
     },
     {
         "name": "154540.com",
-        "subdomain": "www.154540.com",
+        "subdomain": [
+            "www.154540.com"
+        ],
         "type": "Domain"
     },
     {
@@ -66,13 +307,19 @@
     },
     {
         "name": "tasasdf.cg-alias.com",
-        "subdomain": "cg-alias.com",
+        "subdomain": [
+            "cg-alias.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.253.13.51",
+        "dns_a": [
+            "103.253.13.51"
+        ],
         "name": "154596.com",
-        "subdomain": "www.154596.com",
+        "subdomain": [
+            "www.154596.com"
+        ],
         "type": "Domain"
     },
     {
@@ -85,32 +332,44 @@
     },
     {
         "name": "www.3454525.com",
-        "subdomain": "3454525.com",
+        "subdomain": [
+            "3454525.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "02887p.com",
-        "subdomain": "www.02887p.com",
+        "subdomain": [
+            "www.02887p.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454506.com",
-        "subdomain": "3454506.com",
+        "subdomain": [
+            "3454506.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454555.com",
-        "subdomain": "www.3454555.com",
+        "subdomain": [
+            "www.3454555.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454554.com",
-        "subdomain": "3454554.com",
+        "subdomain": [
+            "3454554.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.02887y.com",
-        "subdomain": "02887y.com",
+        "subdomain": [
+            "02887y.com"
+        ],
         "type": "Domain"
     },
     {
@@ -123,7 +382,9 @@
     },
     {
         "name": "02887l.com",
-        "subdomain": "www.02887l.com",
+        "subdomain": [
+            "www.02887l.com"
+        ],
         "type": "Domain"
     },
     {
@@ -132,57 +393,79 @@
     },
     {
         "name": "www.3454571.com",
-        "subdomain": "3454571.com",
+        "subdomain": [
+            "3454571.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454562.com",
-        "subdomain": "3454562.com",
+        "subdomain": [
+            "3454562.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454524.com",
-        "subdomain": "3454524.com",
+        "subdomain": [
+            "3454524.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454530.com",
-        "subdomain": "3454530.com",
+        "subdomain": [
+            "3454530.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454596.com",
-        "subdomain": "3454596.com",
+        "subdomain": [
+            "3454596.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.02887f.com",
-        "subdomain": "02887f.com",
+        "subdomain": [
+            "02887f.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.34545k.com",
-        "subdomain": "34545k.com",
+        "subdomain": [
+            "34545k.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "34545b.com",
-        "subdomain": "www.34545b.com",
+        "subdomain": [
+            "www.34545b.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454589.com",
-        "subdomain": "www.3454589.com",
+        "subdomain": [
+            "www.3454589.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454501.com",
-        "subdomain": "3454501.com",
+        "subdomain": [
+            "3454501.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454514.com",
-        "subdomain": "www.3454514.com",
+        "subdomain": [
+            "www.3454514.com"
+        ],
         "type": "Domain"
     },
     {
@@ -191,42 +474,58 @@
     },
     {
         "name": "02887w.com",
-        "subdomain": "www.02887w.com",
+        "subdomain": [
+            "www.02887w.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454531.com",
-        "subdomain": "www.3454531.com",
+        "subdomain": [
+            "www.3454531.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.154595.com",
-        "subdomain": "154595.com",
+        "subdomain": [
+            "154595.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.02887s.com",
-        "subdomain": "02887s.com",
+        "subdomain": [
+            "02887s.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.154520.com",
-        "subdomain": "154520.com",
+        "subdomain": [
+            "154520.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "02887u.com",
-        "subdomain": "www.02887u.com",
+        "subdomain": [
+            "www.02887u.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.154583.com",
-        "subdomain": "154583.com",
+        "subdomain": [
+            "154583.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "34545i.com",
-        "subdomain": "www.34545i.com",
+        "subdomain": [
+            "www.34545i.com"
+        ],
         "type": "Domain"
     },
     {
@@ -239,12 +538,16 @@
     },
     {
         "name": "www.02887t.com",
-        "subdomain": "02887t.com",
+        "subdomain": [
+            "02887t.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.34545r.com",
-        "subdomain": "34545r.com",
+        "subdomain": [
+            "34545r.com"
+        ],
         "type": "Domain"
     },
     {
@@ -253,12 +556,16 @@
     },
     {
         "name": "02887x.com",
-        "subdomain": "www.02887x.com",
+        "subdomain": [
+            "www.02887x.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "02887o.com",
-        "subdomain": "www.02887o.com",
+        "subdomain": [
+            "www.02887o.com"
+        ],
         "type": "Domain"
     },
     {
@@ -267,22 +574,30 @@
     },
     {
         "name": "www.3454508.com",
-        "subdomain": "3454508.com",
+        "subdomain": [
+            "3454508.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "02887e.com",
-        "subdomain": "www.02887e.com",
+        "subdomain": [
+            "www.02887e.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "34545p.com",
-        "subdomain": "www.34545p.com",
+        "subdomain": [
+            "www.34545p.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.3454539.com",
-        "subdomain": "3454539.com",
+        "subdomain": [
+            "3454539.com"
+        ],
         "type": "Domain"
     },
     {
@@ -291,17 +606,23 @@
     },
     {
         "name": "02887m.com",
-        "subdomain": "www.02887m.com",
+        "subdomain": [
+            "www.02887m.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454595.com",
-        "subdomain": "www.3454595.com",
+        "subdomain": [
+            "www.3454595.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.154582.com",
-        "subdomain": "154582.com",
+        "subdomain": [
+            "154582.com"
+        ],
         "type": "Domain"
     },
     {
@@ -310,27 +631,37 @@
     },
     {
         "name": "3454586.com",
-        "subdomain": "www.3454586.com",
+        "subdomain": [
+            "www.3454586.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "02887k.com",
-        "subdomain": "www.02887k.com",
+        "subdomain": [
+            "www.02887k.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.34545h.com",
-        "subdomain": "34545h.com",
+        "subdomain": [
+            "34545h.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "02887b.com",
-        "subdomain": "www.02887b.com",
+        "subdomain": [
+            "www.02887b.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454592.com",
-        "subdomain": "www.3454592.com",
+        "subdomain": [
+            "www.3454592.com"
+        ],
         "type": "Domain"
     },
     {
@@ -374,301 +705,546 @@
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15453333.com",
-        "subdomain": "15453333.com",
+        "subdomain": [
+            "15453333.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15453333.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15452222.com",
-        "subdomain": "15452222.com",
+        "subdomain": [
+            "15452222.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "43.251.225.241",
+        "dns_a": [
+            "43.251.225.241"
+        ],
         "name": "15452222.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15459999.com",
-        "subdomain": "15459999.com",
+        "subdomain": [
+            "15459999.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15451111.com",
-        "subdomain": "www.15451111.com",
+        "subdomain": [
+            "www.15451111.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15459999.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15451111.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15456666.com",
-        "subdomain": "www.15456666.com",
+        "subdomain": [
+            "www.15456666.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15456666.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15458888.com",
-        "subdomain": "15458888.com",
+        "subdomain": [
+            "15458888.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15458888.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15457777.com",
-        "subdomain": "www.15457777.com",
+        "subdomain": [
+            "www.15457777.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15457777.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.15450000.com",
-        "subdomain": "15450000.com",
+        "subdomain": [
+            "15450000.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "15450000.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.279686.com",
-        "subdomain": "279686.com",
+        "subdomain": [
+            "279686.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "279686.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "236859.com",
-        "subdomain": "www.236859.com",
+        "subdomain": [
+            "www.236859.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.236629.com",
-        "subdomain": "236629.com",
+        "subdomain": [
+            "236629.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "237559.com",
-        "subdomain": "www.237559.com",
+        "subdomain": [
+            "www.237559.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.236869.com",
-        "subdomain": "236869.com",
+        "subdomain": [
+            "236869.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "236869.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.169",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.169"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.236819.com",
-        "subdomain": "236819.com",
+        "subdomain": [
+            "236819.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "8881545.com",
-        "subdomain": "www.8881545.com",
+        "subdomain": [
+            "www.8881545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.8881545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.0001545.com",
-        "subdomain": "0001545.com",
+        "subdomain": [
+            "0001545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "0001545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com",
+            "tas.cg-vipweb.com"
+        ],
         "name": "2221545.com",
-        "subdomain": "www.2221545.com",
+        "subdomain": [
+            "www.2221545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com",
+            "tas.cg-vipweb.com"
+        ],
         "name": "www.2221545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.7771545.com",
-        "subdomain": "7771545.com",
+        "subdomain": [
+            "7771545.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "c7e836aeb5bb38fb600e817319a0609d8092ca97e1087adaa64117757bc57b4a",
-        "dns_a": "43.251.225.240",
+        "cert": [
+            "c7e836aeb5bb38fb600e817319a0609d8092ca97e1087adaa64117757bc57b4a"
+        ],
+        "dns_a": [
+            "43.251.225.240"
+        ],
         "name": "5551545.com",
-        "subdomain": "www.5551545.com",
+        "subdomain": [
+            "www.5551545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.3331545.com",
-        "subdomain": "3331545.com",
+        "subdomain": [
+            "3331545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "3331545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "43.251.225.240",
+        "dns_a": [
+            "43.251.225.240"
+        ],
         "name": "www.5551545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.167",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.167"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "7771545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.227",
-        "dns_cname": "tsr.cdn-discuz.com",
+        "dns_a": [
+            "185.106.0.227"
+        ],
+        "dns_cname": [
+            "tsr.cdn-discuz.com"
+        ],
         "name": "www.154515.com",
-        "subdomain": "154515.com",
+        "subdomain": [
+            "154515.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_a": [
+            "154.94.1.178"
+        ],
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "www.1545h.com",
-        "subdomain": "1545h.com",
+        "subdomain": [
+            "1545h.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
-        "dns_cname": "tas.cg-vipweb.com",
+        "dns_a": [
+            "154.94.1.178"
+        ],
+        "dns_cname": [
+            "tas.cg-vipweb.com"
+        ],
         "name": "1545h.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "www.99991545.com",
+        "dns_cname": [
+            "55551545.com",
+            "1545111.com",
+            "www.1545111.com",
+            "www.55551545.com",
+            "4441545.com",
+            "www.4441545.com",
+            "22221545.com",
+            "www.88881545.com",
+            "88881545.com",
+            "99991545.com",
+            "www.22221545.com",
+            "00001545.com",
+            "77771545.com",
+            "www.77771545.com",
+            "66661545.com",
+            "www.44441545.com",
+            "www.00001545.com",
+            "www.66661545.com",
+            "www.15454444.com",
+            "44441545.com",
+            "15454444.com",
+            "34545t.com",
+            "www.34545t.com",
+            "www.99991545.com"
+        ],
         "name": "tas.cg-vipweb.com",
-        "subdomain": "cg-vipweb.com",
+        "subdomain": [
+            "cg-vipweb.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "55551545.com",
-        "subdomain": "www.55551545.com",
+        "subdomain": [
+            "www.55551545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "1545111.com",
-        "subdomain": "www.1545111.com",
+        "subdomain": [
+            "www.1545111.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.1545111.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.55551545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "4441545.com",
-        "subdomain": "www.4441545.com",
+        "subdomain": [
+            "www.4441545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.4441545.com",
         "type": "Domain"
     },
     {
         "name": "22221545.com",
-        "subdomain": "www.22221545.com",
+        "subdomain": [
+            "www.22221545.com"
+        ],
         "type": "Domain"
     },
     {
@@ -680,68 +1256,104 @@
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "99991545.com",
-        "subdomain": "www.99991545.com",
+        "subdomain": [
+            "www.99991545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.22221545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "00001545.com",
-        "subdomain": "www.00001545.com",
+        "subdomain": [
+            "www.00001545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "77771545.com",
-        "subdomain": "www.77771545.com",
+        "subdomain": [
+            "www.77771545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.77771545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "66661545.com",
-        "subdomain": "www.66661545.com",
+        "subdomain": [
+            "www.66661545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.44441545.com",
-        "subdomain": "44441545.com",
+        "subdomain": [
+            "44441545.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.00001545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.66661545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "www.15454444.com",
-        "subdomain": "15454444.com",
+        "subdomain": [
+            "15454444.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "44441545.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.178",
+        "dns_a": [
+            "154.94.1.178"
+        ],
         "name": "15454444.com",
         "type": "Domain"
     },
@@ -751,7 +1363,9 @@
     },
     {
         "name": "34545t.com",
-        "subdomain": "www.34545t.com",
+        "subdomain": [
+            "www.34545t.com"
+        ],
         "type": "Domain"
     },
     {
@@ -760,17 +1374,29 @@
     },
     {
         "name": "02887n.com",
-        "subdomain": "www.02887n.com",
+        "subdomain": [
+            "www.02887n.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "3454504.com",
-        "subdomain": "www.3454504.com",
+        "subdomain": [
+            "www.3454504.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "cg-alias.com",
-        "subdomain": "nwb.cg-alias.com",
+        "subdomain": [
+            "nwd.cg-alias.com",
+            "nxb.cg-alias.com",
+            "nwc.cg-alias.com",
+            "btl.cg-alias.com",
+            "acm.cg-alias.com",
+            "nxc.cg-alias.com",
+            "nwb.cg-alias.com"
+        ],
         "type": "Domain"
     },
     {
@@ -902,13 +1528,26 @@
         "type": "Domain"
     },
     {
-        "dns_a": "185.106.0.227",
-        "dns_cname": "154515.com",
+        "dns_a": [
+            "185.106.0.227"
+        ],
+        "dns_cname": [
+            "236629.com",
+            "www.236859.com",
+            "www.237559.com",
+            "236819.com",
+            "154515.com"
+        ],
         "name": "tsr.cdn-discuz.com",
         "type": "Domain"
     },
     {
-        "dns_a": "236819.com",
+        "dns_a": [
+            "236629.com",
+            "www.236859.com",
+            "www.237559.com",
+            "236819.com"
+        ],
         "name": "185.106.0.169",
         "type": "IP"
     },
@@ -937,36 +1576,61 @@
         "type": "IP"
     },
     {
-        "dns_a": "1545.me",
+        "dns_a": [
+            "1545.me"
+        ],
         "name": "43.251.225.240",
         "type": "IP"
     },
     {
-        "cert": "www.1545.me",
-        "certchain": "7fc8c5263f0826b13eed1639957cef03f65964464e5b666b3eb3505696bbc73e",
+        "cert": [
+            "1545.me",
+            "www.1545.me"
+        ],
+        "certchain": [
+            "7fc8c5263f0826b13eed1639957cef03f65964464e5b666b3eb3505696bbc73e"
+        ],
         "name": "c7e836aeb5bb38fb600e817319a0609d8092ca97e1087adaa64117757bc57b4a",
         "type": "Cert_SHA256"
     },
     {
-        "dns_a": "185.106.0.227",
+        "dns_a": [
+            "185.106.0.227"
+        ],
         "name": "154515.com",
         "type": "Domain"
     },
     {
-        "asn": "AS206819",
-        "cidr": "185.106.0.0/24",
+        "asn": [
+            "AS206819"
+        ],
+        "cidr": [
+            "185.106.0.0/24"
+        ],
         "name": "185.106.0.227",
         "type": "IP"
     },
     {
-        "dns_a": "www.99991545.com",
+        "dns_a": [
+            "www.99991545.com"
+        ],
         "name": "154.94.1.178",
         "type": "IP"
     },
     {
-        "cert": "334493ab3a843afba9cbcac5e587a5e76f01ac05e622d7997be6f8d5bc65c4d5",
+        "cert": [
+            "334493ab3a843afba9cbcac5e587a5e76f01ac05e622d7997be6f8d5bc65c4d5"
+        ],
         "name": "cg-vipweb.com",
-        "subdomain": "pad.cg-vipweb.com",
+        "subdomain": [
+            "btk.cg-vipweb.com",
+            "btd.cg-vipweb.com",
+            "paf.cg-vipweb.com",
+            "paf2.cg-vipweb.com",
+            "paf1.cg-vipweb.com",
+            "jsa.cg-vipweb.com",
+            "pad.cg-vipweb.com"
+        ],
         "type": "Domain"
     },
     {
@@ -1010,7 +1674,9 @@
         "type": "Domain"
     },
     {
-        "cert": "334493ab3a843afba9cbcac5e587a5e76f01ac05e622d7997be6f8d5bc65c4d5",
+        "cert": [
+            "334493ab3a843afba9cbcac5e587a5e76f01ac05e622d7997be6f8d5bc65c4d5"
+        ],
         "name": "www.99991545.com",
         "type": "Domain"
     },
@@ -1035,7 +1701,9 @@
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.5.17",
+        "dns_a": [
+            "154.85.5.17"
+        ],
         "name": "btl.cg-alias.com",
         "type": "Domain"
     },
@@ -1044,7 +1712,9 @@
         "type": "IP"
     },
     {
-        "dns_a": "43.239.179.80",
+        "dns_a": [
+            "43.239.179.80"
+        ],
         "name": "acm.cg-alias.com",
         "type": "Domain"
     },
@@ -1062,7 +1732,9 @@
     },
     {
         "name": "1545.me",
-        "subdomain": "www.1545.me",
+        "subdomain": [
+            "www.1545.me"
+        ],
         "type": "Domain"
     },
     {
@@ -1082,19 +1754,183 @@
         "type": "ASN"
     },
     {
-        "cert": "www.cyl1314.com",
+        "cert": [
+            "qt.am0592.com",
+            "btk.cg-vipweb.com",
+            "www.15085537058.com",
+            "hhh.cdn.cdndns8.com",
+            "btd.cg-vipweb.com",
+            "86068c.com",
+            "www.86068c.com",
+            "86068a.com",
+            "86068d.com",
+            "86068e.com",
+            "www.86068e.com",
+            "www.89698777.com",
+            "www.dd89698.com",
+            "www.cc89698.com",
+            "bb89698.com",
+            "paf.cg-vipweb.com",
+            "306642.com",
+            "www.306642.com",
+            "www.306640.com",
+            "306640.com",
+            "306604.com",
+            "www.306649.com",
+            "306646.com",
+            "www.306610.com",
+            "306647.com",
+            "306610.com",
+            "www.306647.com",
+            "306649.com",
+            "www.306646.com",
+            "www.306604.com",
+            "www.15393756003.com",
+            "4503772.com",
+            "4503886.com",
+            "www.4503886.com",
+            "4503778.com",
+            "www.4503884.com",
+            "4503884.com",
+            "www.4503883.com",
+            "4503880.com",
+            "www.4503887.com",
+            "www.4503881.com",
+            "www.4503778.com",
+            "www.4503880.com",
+            "4503887.com",
+            "www.4503772.com",
+            "4503889.com",
+            "4503881.com",
+            "4503883.com",
+            "www.4503889.com",
+            "liyunqiang888.com",
+            "www.liyunqiang888.com",
+            "287702.net",
+            "paf2.cg-vipweb.com",
+            "www.287702.net",
+            "4503776.com",
+            "4503771.com",
+            "4503882.com",
+            "4503779.com",
+            "www.4503773.com",
+            "www.4503776.com",
+            "www.4503771.com",
+            "www.4503779.com",
+            "4503774.com",
+            "4503885.com",
+            "4503770.com",
+            "www.4503770.com",
+            "www.4503774.com",
+            "www.4503882.com",
+            "www.4503885.com",
+            "4503773.com",
+            "wofachai13898.com",
+            "www.209905.net",
+            "209905.net",
+            "paf1.cg-vipweb.com",
+            "www.15915482422.com",
+            "fqtyc.78979800.com",
+            "15915482422.com",
+            "jsa.cg-vipweb.com",
+            "www.0525005.com",
+            "0525005.com",
+            "www.650877.net",
+            "www.80991.net",
+            "650877.net",
+            "www.05250525.com",
+            "05250525.com",
+            "78979800.com",
+            "pad.cg-vipweb.com",
+            "2544k47.com",
+            "2544k49.com",
+            "www.2544k47.com",
+            "2544k41.com",
+            "www.2544k46.com",
+            "www.2544k49.com",
+            "www.2544k48.com",
+            "2544k46.com",
+            "www.2544k41.com",
+            "2544k48.com",
+            "www.2544k40.com",
+            "2544k44.com",
+            "2544k43.com",
+            "www.2544k44.com",
+            "www.2544k43.com",
+            "2544k42.com",
+            "www.2544k42.com",
+            "www.2544k45.com",
+            "2544k45.com",
+            "2544k40.com",
+            "www.78979800.com",
+            "627070732.com",
+            "www.627070732.com",
+            "www.mm198198.com",
+            "www.csc1996.com",
+            "csc1996.com",
+            "www.qihui520.com",
+            "qihui520.com",
+            "13375266597.com",
+            "www.13375266597.com",
+            "cyl1314.com",
+            "www.cyl1314.com"
+        ],
         "name": "334493ab3a843afba9cbcac5e587a5e76f01ac05e622d7997be6f8d5bc65c4d5",
         "type": "Cert_SHA256"
     },
     {
-        "dns_cname": "www.zhj777.com",
+        "dns_cname": [
+            "btd.cg-vipweb.com",
+            "15085537058.com",
+            "www.15085537058.com",
+            "627070732.com",
+            "www.627070732.com",
+            "13375266597.com",
+            "www.13375266597.com",
+            "cyl1314.com",
+            "www.cyl1314.com",
+            "9034831666.com",
+            "www.9034831666.com",
+            "www.chenbc520.com",
+            "chenbc520.com",
+            "www.zengqianfa.com",
+            "zengqianfa.com",
+            "t45438.com",
+            "www.t45438.com",
+            "zhj777.com",
+            "www.zhj777.com"
+        ],
         "name": "qt.am0592.com",
-        "subdomain": "am0592.com",
+        "subdomain": [
+            "am0592.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.246.115.156",
-        "dns_cname": "www.yongyuan29.com",
+        "dns_a": [
+            "103.246.115.156"
+        ],
+        "dns_cname": [
+            "hhh.cdn.cdndns8.com",
+            "www.13363494994.com",
+            "13363494994.com",
+            "www.15393756003.com",
+            "15393756003.com",
+            "liyunqiang888.com",
+            "www.liyunqiang888.com",
+            "www.wofachai13898.com",
+            "wofachai13898.com",
+            "www.csc1996.com",
+            "csc1996.com",
+            "www.qihui520.com",
+            "qihui520.com",
+            "www.13281236267.com",
+            "13281236267.com",
+            "daiguangliang.com",
+            "www.daiguangliang.com",
+            "yongyuan29.com",
+            "www.yongyuan29.com"
+        ],
         "name": "btk.cg-vipweb.com",
         "type": "Domain"
     },
@@ -1103,44 +1939,81 @@
         "type": "IP"
     },
     {
-        "dns_a": "154.94.1.46",
+        "dns_a": [
+            "154.94.1.46"
+        ],
         "name": "www.15085537058.com",
-        "subdomain": "15085537058.com",
+        "subdomain": [
+            "15085537058.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "45.153.41.35",
-        "dns_cname": "ye5.cg-vipweb.com",
+        "dns_a": [
+            "45.153.41.36",
+            "45.153.41.35"
+        ],
+        "dns_cname": [
+            "nbe.cg-protechttp.com",
+            "nxa.cg-vipweb.com",
+            "ye5.cg-vipweb.com"
+        ],
         "name": "hhh.cdn.cdndns8.com",
-        "subdomain": "cdndns8.com",
+        "subdomain": [
+            "cdndns8.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "csc1996.com",
+        "dns_a": [
+            "www.15393756003.com",
+            "liyunqiang888.com",
+            "www.liyunqiang888.com",
+            "wofachai13898.com",
+            "csc1996.com"
+        ],
         "name": "45.153.41.36",
         "type": "IP"
     },
     {
-        "dns_a": "csc1996.com",
+        "dns_a": [
+            "www.15393756003.com",
+            "liyunqiang888.com",
+            "www.liyunqiang888.com",
+            "wofachai13898.com",
+            "csc1996.com"
+        ],
         "name": "45.153.41.35",
         "type": "IP"
     },
     {
-        "dns_a": "154.94.1.46",
+        "dns_a": [
+            "154.94.1.46"
+        ],
         "name": "btd.cg-vipweb.com",
         "type": "Domain"
     },
     {
-        "dns_a": "627070732.com",
+        "dns_a": [
+            "627070732.com"
+        ],
         "name": "154.94.1.46",
         "type": "IP"
     },
     {
-        "cert": "39b1d0848d29b2fa6802a3730413030602482c509451bae831bd21fb910967cd",
-        "dns_a": "45.123.101.222",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "39b1d0848d29b2fa6802a3730413030602482c509451bae831bd21fb910967cd"
+        ],
+        "dns_a": [
+            "45.123.101.222"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "86068c.com",
-        "subdomain": "www.86068c.com",
+        "subdomain": [
+            "www.86068c.com"
+        ],
         "type": "Domain"
     },
     {
@@ -1148,85 +2021,191 @@
         "type": "IP"
     },
     {
-        "cert": "39b1d0848d29b2fa6802a3730413030602482c509451bae831bd21fb910967cd",
-        "dns_a": "159.138.41.201",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "39b1d0848d29b2fa6802a3730413030602482c509451bae831bd21fb910967cd"
+        ],
+        "dns_a": [
+            "159.138.41.201"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "www.86068c.com",
         "type": "Domain"
     },
     {
-        "cert": "974abee96bc564dfefc8c8484dc8d265e233d8121b351a01c50bb28da31fbdf4",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "974abee96bc564dfefc8c8484dc8d265e233d8121b351a01c50bb28da31fbdf4"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "86068a.com",
-        "subdomain": "www.86068a.com",
+        "subdomain": [
+            "www.86068a.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "7366bfc6222022d1b8637a1d5ce8697f7883b7d2ba2a43191bfc5de20a0c0b87",
-        "dns_a": "159.138.41.201",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "7366bfc6222022d1b8637a1d5ce8697f7883b7d2ba2a43191bfc5de20a0c0b87"
+        ],
+        "dns_a": [
+            "159.138.41.201"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "86068d.com",
-        "subdomain": "www.86068d.com",
+        "subdomain": [
+            "www.86068d.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "cdbde6711e3aded543a11f5bace2c085fbf9ee81965c0510c448e81a37635741",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "cdbde6711e3aded543a11f5bace2c085fbf9ee81965c0510c448e81a37635741"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "86068e.com",
-        "subdomain": "www.86068e.com",
+        "subdomain": [
+            "www.86068e.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "cdbde6711e3aded543a11f5bace2c085fbf9ee81965c0510c448e81a37635741",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "cdbde6711e3aded543a11f5bace2c085fbf9ee81965c0510c448e81a37635741"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "www.86068e.com",
         "type": "Domain"
     },
     {
-        "cert": "0e8a9bc3382b25d4343e634d00f3890d19f6c30cbb259192885232d682a3dd3f",
-        "dns_a": "159.138.41.201",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "0e8a9bc3382b25d4343e634d00f3890d19f6c30cbb259192885232d682a3dd3f"
+        ],
+        "dns_a": [
+            "159.138.41.201"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "www.89698777.com",
-        "subdomain": "89698777.com",
+        "subdomain": [
+            "89698777.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "4008cd4d9ff1daf19d2badb2797b365de1518ff578c067678f06030210ebbefa",
-        "dns_a": "159.138.41.201",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "4008cd4d9ff1daf19d2badb2797b365de1518ff578c067678f06030210ebbefa"
+        ],
+        "dns_a": [
+            "159.138.41.201"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "www.dd89698.com",
-        "subdomain": "dd89698.com",
+        "subdomain": [
+            "dd89698.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "33cda6156c9b8961b72d0621c63b697d6ecb139599e187c517e9467d9e43a1f5",
-        "dns_a": "159.138.41.201",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "33cda6156c9b8961b72d0621c63b697d6ecb139599e187c517e9467d9e43a1f5"
+        ],
+        "dns_a": [
+            "159.138.41.201"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "www.cc89698.com",
-        "subdomain": "cc89698.com",
+        "subdomain": [
+            "cc89698.com"
+        ],
         "type": "Domain"
     },
     {
-        "cert": "0498e6100f4ee5022120d692a24abd00c5aa26c0abd5f1dca8ebc5cab4490b28",
-        "dns_a": "159.138.41.201",
-        "dns_cname": "site.89698zy.com",
+        "cert": [
+            "0498e6100f4ee5022120d692a24abd00c5aa26c0abd5f1dca8ebc5cab4490b28"
+        ],
+        "dns_a": [
+            "159.138.41.201"
+        ],
+        "dns_cname": [
+            "site.89698zy.com"
+        ],
         "name": "bb89698.com",
-        "subdomain": "www.bb89698.com",
+        "subdomain": [
+            "www.bb89698.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "www.129024.com",
+        "dns_cname": [
+            "306642.com",
+            "www.306642.com",
+            "www.306640.com",
+            "306640.com",
+            "306604.com",
+            "www.306649.com",
+            "306646.com",
+            "www.306610.com",
+            "306647.com",
+            "306610.com",
+            "www.306647.com",
+            "306649.com",
+            "www.306646.com",
+            "www.306604.com",
+            "www.650877.net",
+            "www.902496.com",
+            "902418.com",
+            "www.902432.com",
+            "www.129024.com"
+        ],
         "name": "paf.cg-vipweb.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.94.1.18",
+        "dns_a": [
+            "154.94.1.18"
+        ],
         "name": "306642.com",
-        "subdomain": "www.306642.com",
+        "subdomain": [
+            "www.306642.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "www.80991.net",
+        "dns_a": [
+            "306640.com",
+            "287702.net",
+            "650877.net",
+            "www.306642.com",
+            "www.306640.com",
+            "306604.com",
+            "www.306649.com",
+            "306646.com",
+            "www.306610.com",
+            "306647.com",
+            "306610.com",
+            "www.306647.com",
+            "306649.com",
+            "www.306646.com",
+            "www.306604.com",
+            "paf2.cg-vipweb.com",
+            "www.287702.net",
+            "www.650877.net",
+            "www.80991.net"
+        ],
         "name": "154.94.1.18",
         "type": "IP"
     },
@@ -1236,7 +2215,9 @@
     },
     {
         "name": "www.306640.com",
-        "subdomain": "306640.com",
+        "subdomain": [
+            "306640.com"
+        ],
         "type": "Domain"
     },
     {
@@ -1245,27 +2226,37 @@
     },
     {
         "name": "306604.com",
-        "subdomain": "www.306604.com",
+        "subdomain": [
+            "www.306604.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.306649.com",
-        "subdomain": "306649.com",
+        "subdomain": [
+            "306649.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "306646.com",
-        "subdomain": "www.306646.com",
+        "subdomain": [
+            "www.306646.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.306610.com",
-        "subdomain": "306610.com",
+        "subdomain": [
+            "306610.com"
+        ],
         "type": "Domain"
     },
     {
         "name": "306647.com",
-        "subdomain": "www.306647.com",
+        "subdomain": [
+            "www.306647.com"
+        ],
         "type": "Domain"
     },
     {
@@ -1290,132 +2281,226 @@
     },
     {
         "name": "www.15393756003.com",
-        "subdomain": "15393756003.com",
+        "subdomain": [
+            "15393756003.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.35.118.207",
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503772.com",
-        "subdomain": "www.4503772.com",
+        "subdomain": [
+            "www.4503772.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "4503774.com",
+        "dns_a": [
+            "4503887.com",
+            "4503774.com"
+        ],
         "name": "103.35.118.207",
         "type": "IP"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503886.com",
-        "subdomain": "www.4503886.com",
+        "subdomain": [
+            "www.4503886.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503886.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503778.com",
-        "subdomain": "www.4503778.com",
+        "subdomain": [
+            "www.4503778.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "bbd.cdn-discuz.com",
+        "dns_cname": [
+            "bbd.cdn-discuz.com"
+        ],
         "name": "www.4503884.com",
-        "subdomain": "4503884.com",
+        "subdomain": [
+            "4503884.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "bbd.cdn-discuz.com",
+        "dns_cname": [
+            "bbd.cdn-discuz.com"
+        ],
         "name": "4503884.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503883.com",
-        "subdomain": "4503883.com",
+        "subdomain": [
+            "4503883.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503880.com",
-        "subdomain": "www.4503880.com",
+        "subdomain": [
+            "www.4503880.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503887.com",
-        "subdomain": "4503887.com",
+        "subdomain": [
+            "4503887.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503881.com",
-        "subdomain": "4503881.com",
+        "subdomain": [
+            "4503881.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503778.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503880.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503887.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503772.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503889.com",
-        "subdomain": "www.4503889.com",
+        "subdomain": [
+            "www.4503889.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503881.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503883.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503889.com",
         "type": "Domain"
     },
     {
         "name": "liyunqiang888.com",
-        "subdomain": "www.liyunqiang888.com",
+        "subdomain": [
+            "www.liyunqiang888.com"
+        ],
         "type": "Domain"
     },
     {
@@ -1423,13 +2508,20 @@
         "type": "Domain"
     },
     {
-        "dns_cname": "paf2.cg-vipweb.com",
+        "dns_cname": [
+            "paf2.cg-vipweb.com"
+        ],
         "name": "287702.net",
-        "subdomain": "www.287702.net",
+        "subdomain": [
+            "www.287702.net"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "www.80991.net",
+        "dns_cname": [
+            "www.287702.net",
+            "www.80991.net"
+        ],
         "name": "paf2.cg-vipweb.com",
         "type": "Domain"
     },
@@ -1438,129 +2530,223 @@
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503776.com",
-        "subdomain": "www.4503776.com",
+        "subdomain": [
+            "www.4503776.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503771.com",
-        "subdomain": "www.4503771.com",
+        "subdomain": [
+            "www.4503771.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503882.com",
-        "subdomain": "www.4503882.com",
+        "subdomain": [
+            "www.4503882.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503779.com",
-        "subdomain": "www.4503779.com",
+        "subdomain": [
+            "www.4503779.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503773.com",
-        "subdomain": "4503773.com",
+        "subdomain": [
+            "4503773.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503776.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503771.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503779.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503774.com",
-        "subdomain": "www.4503774.com",
+        "subdomain": [
+            "www.4503774.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503885.com",
-        "subdomain": "www.4503885.com",
+        "subdomain": [
+            "www.4503885.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503770.com",
-        "subdomain": "www.4503770.com",
+        "subdomain": [
+            "www.4503770.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503770.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503774.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503882.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "www.4503885.com",
         "type": "Domain"
     },
     {
-        "dns_a": "103.71.137.120",
-        "dns_cname": "vlr.cdn-discuz.com",
+        "dns_a": [
+            "103.71.137.120"
+        ],
+        "dns_cname": [
+            "vlr.cdn-discuz.com"
+        ],
         "name": "4503773.com",
         "type": "Domain"
     },
     {
         "name": "wofachai13898.com",
-        "subdomain": "www.wofachai13898.com",
+        "subdomain": [
+            "www.wofachai13898.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.4.44",
-        "dns_cname": "paf1.cg-vipweb.com",
+        "dns_a": [
+            "154.85.4.44"
+        ],
+        "dns_cname": [
+            "paf1.cg-vipweb.com"
+        ],
         "name": "www.209905.net",
-        "subdomain": "209905.net",
+        "subdomain": [
+            "209905.net"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.4.44",
-        "dns_cname": "paf1.cg-vipweb.com",
+        "dns_a": [
+            "154.85.4.44"
+        ],
+        "dns_cname": [
+            "paf1.cg-vipweb.com"
+        ],
         "name": "209905.net",
         "type": "Domain"
     },
     {
-        "dns_a": "paf1.cg-vipweb.com",
+        "dns_a": [
+            "paf1.cg-vipweb.com"
+        ],
         "name": "154.85.4.44",
         "type": "IP"
     },
@@ -1569,48 +2755,111 @@
         "type": "Domain"
     },
     {
-        "dns_a": "59.153.149.126",
-        "dns_cname": "fqtyc.78979800.com",
+        "dns_a": [
+            "59.153.149.126"
+        ],
+        "dns_cname": [
+            "fqtyc.78979800.com"
+        ],
         "name": "www.15915482422.com",
-        "subdomain": "15915482422.com",
+        "subdomain": [
+            "15915482422.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "43.246.173.132",
-        "dns_cname": "88501j.com",
+        "dns_a": [
+            "43.246.173.132"
+        ],
+        "dns_cname": [
+            "pad.cg-vipweb.com",
+            "15915482422.com",
+            "www.mm198198.com",
+            "www.88501d.com",
+            "www.88501m.com",
+            "88501i.com",
+            "www.88501z.com",
+            "www.88501b.com",
+            "88501k.com",
+            "www.88501i.com",
+            "www.88501v.com",
+            "www.88501y.com",
+            "88501y.com",
+            "88501b.com",
+            "88501w.com",
+            "www.88501p.com",
+            "88501z.com",
+            "88501j.com"
+        ],
         "name": "fqtyc.78979800.com",
-        "subdomain": "78979800.com",
+        "subdomain": [
+            "78979800.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "78979800.com",
+        "dns_a": [
+            "78979800.com"
+        ],
         "name": "43.246.173.132",
         "type": "IP"
     },
     {
-        "dns_a": "59.153.149.126",
+        "dns_a": [
+            "59.153.149.126"
+        ],
         "name": "15915482422.com",
         "type": "Domain"
     },
     {
-        "dns_a": "pad.cg-vipweb.com",
+        "dns_a": [
+            "78979800.com",
+            "pad.cg-vipweb.com"
+        ],
         "name": "59.153.149.126",
         "type": "IP"
     },
     {
-        "dns_a": "45.123.101.181",
-        "dns_cname": "0525x.com",
+        "dns_a": [
+            "154.85.6.26",
+            "45.123.101.181"
+        ],
+        "dns_cname": [
+            "www.0525005.com",
+            "0525005.com",
+            "www.05250525.com",
+            "05250525.com",
+            "858424.com",
+            "www.qq213541235.com",
+            "www.myapp128.com",
+            "www.858424.com",
+            "myapp128.com",
+            "www.0525x.com",
+            "www.0525q.com",
+            "772194.com",
+            "qq213541235.com",
+            "www.4470.cc",
+            "4470.cc",
+            "0525x.com"
+        ],
         "name": "jsa.cg-vipweb.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.6.26",
+        "dns_a": [
+            "154.85.6.26"
+        ],
         "name": "www.0525005.com",
-        "subdomain": "0525005.com",
+        "subdomain": [
+            "0525005.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.6.26",
+        "dns_a": [
+            "45.123.101.181",
+            "154.85.6.26"
+        ],
         "name": "0525005.com",
         "type": "Domain"
     },
@@ -1620,12 +2869,16 @@
     },
     {
         "name": "www.650877.net",
-        "subdomain": "650877.net",
+        "subdomain": [
+            "650877.net"
+        ],
         "type": "Domain"
     },
     {
         "name": "www.80991.net",
-        "subdomain": "80991.net",
+        "subdomain": [
+            "80991.net"
+        ],
         "type": "Domain"
     },
     {
@@ -1633,98 +2886,163 @@
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.6.26",
+        "dns_a": [
+            "154.85.6.26"
+        ],
         "name": "www.05250525.com",
-        "subdomain": "05250525.com",
+        "subdomain": [
+            "05250525.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.6.26",
+        "dns_a": [
+            "154.85.6.26"
+        ],
         "name": "05250525.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "pad.cg-vipweb.com",
+        "dns_cname": [
+            "pad.cg-vipweb.com"
+        ],
         "name": "78979800.com",
-        "subdomain": "www.78979800.com",
+        "subdomain": [
+            "www.78979800.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "www.78979800.com",
+        "dns_cname": [
+            "www.78979800.com"
+        ],
         "name": "pad.cg-vipweb.com",
         "type": "Domain"
     },
     {
-        "dns_a": "154.85.5.112",
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_a": [
+            "154.85.5.112"
+        ],
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "2544k47.com",
-        "subdomain": "www.2544k47.com",
+        "subdomain": [
+            "www.2544k47.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_a": "2544k43.com",
+        "dns_a": [
+            "2544k49.com",
+            "www.2544k47.com",
+            "2544k41.com",
+            "www.2544k46.com",
+            "www.2544k49.com",
+            "www.2544k48.com",
+            "2544k46.com",
+            "www.2544k41.com",
+            "2544k48.com",
+            "www.2544k40.com",
+            "2544k44.com",
+            "2544k43.com"
+        ],
         "name": "154.85.5.112",
         "type": "IP"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "2544k49.com",
-        "subdomain": "www.2544k49.com",
+        "subdomain": [
+            "www.2544k49.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "www.2544k47.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "2544k41.com",
-        "subdomain": "www.2544k41.com",
+        "subdomain": [
+            "www.2544k41.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "www.2544k46.com",
-        "subdomain": "2544k46.com",
+        "subdomain": [
+            "2544k46.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "www.2544k49.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "www.2544k48.com",
-        "subdomain": "2544k48.com",
+        "subdomain": [
+            "2544k48.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "2544k46.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "www.2544k41.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "2544k48.com",
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "www.2544k40.com",
-        "subdomain": "2544k40.com",
+        "subdomain": [
+            "2544k40.com"
+        ],
         "type": "Domain"
     },
     {
-        "dns_cname": "nwb3.cg-vipweb.com",
+        "dns_cname": [
+            "nwb3.cg-vipweb.com"
+        ],
         "name": "2544k44.com",
-        "subdomain": "www.2544k44.com",
+        "subdomain": [
+            "www.2544k44.com"
+        ],
         "type": "Domain"
     },
     {
