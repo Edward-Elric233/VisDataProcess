@@ -161,11 +161,16 @@ string dot2line(string s) {
             output_datas[data_idx]["links"].push_back(link);
         }
 
+        std::ofstream os_log(output_path.substr(0, output_path.find_last_of('.')) + ".log");
+        json file_name_list = json::array();
+
         for (int i = 0; i < cnt; ++i) {
-            string output_path_i = output_path.substr(0, output_path.find_last_of('.')) + "_" + std::to_string(cnt) + "_" + std::to_string(i + 1) + output_path.substr(output_path.find_last_of('.'));
+            string output_path_i = output_path.substr(0, output_path.find_last_of('.')) + "_" + std::to_string(i + 1) + output_path.substr(output_path.find_last_of('.'));
+            file_name_list.push_back(output_path_i.substr(output_path_i.find_last_of('/') + 1));
             std::ofstream os(output_path_i);
             os << output_datas[i].dump(4);
         }
+        os_log << file_name_list.dump(4);
         return cnt;
     }
 
