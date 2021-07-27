@@ -57,16 +57,29 @@ string dot2line(string s) {
             type = type.substr(2);
             if (!iter->contains(type)) {
                 (*iter)[type] = json::array();
-                (*iter)[type].push_back(target);
-            } else {
-                (*iter)[type].push_back(target);
+            }
+            auto &list = (*iter)[type];
+            if (std::find_if(list.begin(), list.end(), [&](const json &x){
+                return x == target;
+            }) == list.end()) {
+                list.push_back(target);
             }
         };
         for (auto &link : links) {
             deal(link);
         }
+
+        json dot_data = json::array();
+
+        for (auto &node : nodes) {
+            string type = node["type"];
+            if (type == "Domain" || type == "IP" || type == "Cert_SHA256") {
+                dot_data.push_back(node);
+            }
+        }
+
         std::ofstream os(output_filter + file_name);
-        os << nodes.dump(4);
+        os << dot_data.dump(4);
     }
 
     void dfs(vector<vector<int>> &graph, int x,vector<int> &idx, int cnt) {
@@ -84,16 +97,36 @@ string dot2line(string s) {
         is >> dot_data;
         json link_data = json::array();
         vector<vector<int>> graph(dot_data.size());
-        auto deal = [&](json &node, const string &type, int u) -> bool {
-            if (!node.contains(type)) return false;
-            for (auto name_ : node[type]) {
+        auto deal = [&](int u, const string &type) -> bool {
+            if (!dot_data[u].contains(type)) return false;
+            for (auto name_ : dot_data[u][type]) {
                 const string &other_node_name = name_;
-                const string &node_name = node["name"];
+                const string &node_name = dot_data[u]["name"];
                 auto iter = std::find_if(dot_data.begin(), dot_data.end(), [&](const json &x){
                     return x[NAME] == other_node_name;
                 });
-                if (iter == dot_data.end()) return false;
+                if (iter == dot_data.end()) {
+                    json tmp_node = json::object();
+                    tmp_node["name"] = other_node_name;
+                    if (type == "whois_name") {
+                        tmp_node["type"] = "Whois_Name";
+                    } else if (type == "whois_phone") {
+                        tmp_node["type"] = "Whois_Phone";
+                    } else if (type == "whois_email") {
+                        tmp_node["type"] = "Whois_Email";
+                    } else if (type == "asn") {
+                        tmp_node["type"] = "ASN";
+                    } else if (type == "cidr") {
+                        tmp_node["type"] = "IP_CIDR";
+                    }
+                    dot_data.push_back(tmp_node);
+                    iter = dot_data.end() - 1;
+                }
                 int v = iter - dot_data.begin();
+                int max_size = std::max(u, v);
+                if (max_size >= graph.size()) {
+                    graph.resize(max_size + 1);
+                }
                 graph[u].push_back(v);
                 graph[v].push_back(u);
                 const string link_type = "r_" + type;
@@ -107,7 +140,7 @@ string dot2line(string s) {
                 add_link(node_name, other_node_name);
 //                add_link(other_node_name, node_name);
             }
-            node.erase(type);
+            dot_data[u].erase(type);
             return true;
         };
         for (int i = 0; i < dot_data.size(); ++i) {
@@ -116,19 +149,19 @@ string dot2line(string s) {
             //node.erase("page");
             const string &type = node[TYPE];
 //            if (type == "Domain") {
-                deal(node, "whois_name", i);
-                deal(node, "whois_phone", i);
-                deal(node, "whois_email", i);
-                deal(node, "cert", i);
-                deal(node, "request_jump", i);
-                deal(node, "dns_cname", i);
-                deal(node, "subdomain", i);
-                deal(node, "dns_a", i);
+                deal(i, "whois_name");
+                deal(i, "whois_phone");
+                deal(i, "whois_email");
+                deal(i, "cert");
+                deal(i, "request_jump");
+                deal(i, "dns_cname");
+                deal(i, "subdomain");
+                deal(i, "dns_a");
 //            } else if (type == "Cert_SHA256") {
-                deal(node, "certchain", i);
+                deal(i, "certchain");
 //            } else if (type == "IP") {
-                deal(node, "asn", i);
-                deal(node, "cidr", i);
+                deal(i, "asn");
+                deal(i, "cidr");
 //            }
         }
         int cnt = 0;
@@ -148,8 +181,8 @@ string dot2line(string s) {
         }
 
         for (int i = 0; i < dot_data.size(); ++i) {
-            int data_idx = idx[i] - 1;
-            output_datas[data_idx]["nodes"].push_back(dot_data[i]);
+                int data_idx = idx[i] - 1;
+                output_datas[data_idx]["nodes"].push_back(dot_data[i]);
         }
 
         for (auto &link : link_data) {
@@ -211,14 +244,15 @@ namespace vis_lib {
         json &nodes = data.at("nodes");
         data["links"] = json::array();
         json &links = data.at("links");
-        unordered_map<string, int> hash;
+//        unordered_map<string, int> hash;
         int idx = 0;
         for (auto &item : origin_nodes.items()) {
             auto &origin_node = item.value();
-            hash[origin_node["name"]] = ++idx;
+//            hash[origin_node["name"]] = ++idx;
             json node = json::object();
-            node["id"] = idx;
+//            node["id"] = idx;
             node["name"] = origin_node["name"];
+            node["type"] = origin_node["type"];
             nodes.push_back(node);
         }
         for (auto &item : origin_links.items()) {
